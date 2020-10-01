@@ -1,0 +1,41 @@
+nav ul
+{
+  margin:0;
+  padding:0;
+  text-align: center;
+  list-style:none;
+}
+nav li
+{
+  float: left;
+  font-size: 18px;
+  line-height: 50px;
+  height: 80px;
+	
+  background-color: blue;
+	background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.000) 100%);
+  border-radius: 100px;
+  line-height: 60px;
+	padding-left: 0px;
+  padding-right: 0px;
+}
+nav a
+{
+  text-decoration: none;
+  color: blue;
+  display: block;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+  width: 120px;
+}
+nav a:hover
+{
+  background-color: blue;
+  color: aqua;
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+  border-radius: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+  line-height: 70px;
+}
